@@ -2,7 +2,7 @@
 
 # jotlog
 
-jotlog is a blazingly fast, privacy focused, and always offline note-taking app for movers. I created it because I needed a way to capture notes in the moment, without minimal screen time and interactions needed.
+jotlog is a blazingly fast, privacy focused, and always offline note-taking app for movers. I created it because I needed a way to capture notes in the moment, with minimal screen time and interactions needed.
 
 Check out <a href="https://jotlog.app">jotlog.app</a> for more info
 
