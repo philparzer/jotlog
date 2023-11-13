@@ -1,0 +1,35 @@
+{
+  "cli": {
+    "version": ">= 4.1.2",
+    "promptToConfigurePushNotifications": false,
+    "appVersionSource": "remote"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal"
+    },
+    "preview": {
+      "android": {
+        "buildType": "apk"
+      }
+    },
+    "production": {
+      "autoIncrement": true
+    }
+  },
+  "submit": {
+    "production": {
+   
+      "android": {
+        "serviceAccountKeyPath": "TODO: PATH TO YOUR SERVICE ACCOUNT KEY",
+        "track": "internal"
+      },
+          "ios": {
+            "appleId": "TODO: YOUR APPLE APP ID",
+            "ascAppId": "TODO: YOUR APPLE ASC ID (10 digit number)",
+            "appleTeamId": "TODO: YOUR APPLE TEAM ID"
+          }
+    }
+  }
+}
